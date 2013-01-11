@@ -1,0 +1,14 @@
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****

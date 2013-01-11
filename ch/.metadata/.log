@@ -1,0 +1,29 @@
+!SESSION 2012-12-10 14:13:28.222 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_35
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-12-10 14:15:35.158
+!MESSAGE Indexed 'ARMCM4-STM32F407-LWIP' (2 sources, 49 headers) in 1,49 sec: 1 290 declarations; 1 514 references; 8 unresolved inclusions; 2 syntax errors; 28 unresolved names (0,99 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-12-10 14:19:56.730
+!MESSAGE Indexed 'ARMCM4-STM32F407-LWIP' (2 sources, 49 headers) in 0,33 sec: 1 290 declarations; 1 514 references; 8 unresolved inclusions; 2 syntax errors; 28 unresolved names (0,99 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-12-10 14:23:37.270
+!MESSAGE Indexed 'ARMCM4-STM32F407-LWIP' (2 sources, 49 headers) in 0,27 sec: 1 290 declarations; 1 514 references; 8 unresolved inclusions; 2 syntax errors; 28 unresolved names (0,99 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-12-10 14:32:20.171
+!MESSAGE Indexed 'ARMCM4-STM32F407-LWIP' (207 sources, 185 headers) in 2,90 sec: 12 489 declarations; 32 653 references; 25 unresolved inclusions; 32 syntax errors; 5 191 unresolved names (10,31 %)
+!SESSION 2012-12-11 11:53:31.938 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_35
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-12-11 14:10:33.007
+!MESSAGE Indexed 'ARMCM4-STM32F407-LWIP' (208 sources, 218 headers) in 4,40 sec: 12 982 declarations; 35 188 references; 4 unresolved inclusions; 53 syntax errors; 2 352 unresolved names (4,66 %)

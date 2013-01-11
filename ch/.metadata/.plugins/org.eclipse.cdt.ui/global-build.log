@@ -1,0 +1,1791 @@
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../os/ports/GCC/ARMCMx/crt0.c
+Compiling ../../os/ports/GCC/ARMCMx/STM32F4xx/vectors.c
+Compiling ../../os/ports/GCC/ARMCMx/chcore.c
+Compiling ../../os/ports/GCC/ARMCMx/chcore_v7m.c
+Compiling ../../os/ports/common/ARMCMx/nvic.c
+Compiling ../../os/kernel/src/chsys.c
+Compiling ../../os/kernel/src/chdebug.c
+Compiling ../../os/kernel/src/chlists.c
+Compiling ../../os/kernel/src/chvt.c
+Compiling ../../os/kernel/src/chschd.c
+Compiling ../../os/kernel/src/chthreads.c
+Compiling ../../os/kernel/src/chdynamic.c
+Compiling ../../os/kernel/src/chregistry.c
+Compiling ../../os/kernel/src/chsem.c
+Compiling ../../os/kernel/src/chmtx.c
+Compiling ../../os/kernel/src/chcond.c
+Compiling ../../os/kernel/src/chevents.c
+Compiling ../../os/kernel/src/chmsg.c
+Compiling ../../os/kernel/src/chmboxes.c
+Compiling ../../os/kernel/src/chqueues.c
+Compiling ../../os/kernel/src/chmemcore.c
+Compiling ../../os/kernel/src/chheap.c
+Compiling ../../os/kernel/src/chmempools.c
+Compiling ../../test/test.c
+Compiling ../../test/testthd.c
+Compiling ../../test/testsem.c
+Compiling ../../test/testmtx.c
+Compiling ../../test/testmsg.c
+Compiling ../../test/testmbox.c
+Compiling ../../test/testevt.c
+Compiling ../../test/testheap.c
+Compiling ../../test/testpools.c
+Compiling ../../test/testdyn.c
+Compiling ../../test/testqueues.c
+Compiling ../../test/testbmk.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling ../../os/various/lwip_bindings/arch/sys_arch.c
+Compiling ../../ext/lwip/src/netif/etharp.c
+Compiling ../../ext/lwip/src/core/dhcp.c
+Compiling ../../ext/lwip/src/core/dns.c
+Compiling ../../ext/lwip/src/core/init.c
+Compiling ../../ext/lwip/src/core/mem.c
+Compiling ../../ext/lwip/src/core/memp.c
+Compiling ../../ext/lwip/src/core/netif.c
+Compiling ../../ext/lwip/src/core/pbuf.c
+Compiling ../../ext/lwip/src/core/raw.c
+Compiling ../../ext/lwip/src/core/stats.c
+Compiling ../../ext/lwip/src/core/sys.c
+Compiling ../../ext/lwip/src/core/tcp.c
+Compiling ../../ext/lwip/src/core/tcp_in.c
+Compiling ../../ext/lwip/src/core/tcp_out.c
+Compiling ../../ext/lwip/src/core/udp.c
+Compiling ../../ext/lwip/src/core/ipv4/autoip.c
+Compiling ../../ext/lwip/src/core/ipv4/icmp.c
+Compiling ../../ext/lwip/src/core/ipv4/igmp.c
+Compiling ../../ext/lwip/src/core/ipv4/inet.c
+Compiling ../../ext/lwip/src/core/ipv4/inet_chksum.c
+Compiling ../../ext/lwip/src/core/ipv4/ip.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_addr.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_frag.c
+Compiling ../../ext/lwip/src/core/def.c
+Compiling ../../ext/lwip/src/core/timers.c
+Compiling ../../ext/lwip/src/api/api_lib.c
+Compiling ../../ext/lwip/src/api/api_msg.c
+../../ext/lwip/src/api/api_msg.c: In function 'netconn_alloc':
+../../ext/lwip/src/api/api_msg.c:608:19: warning: 'size' may be used uninitialized in this function [-Wuninitialized]
+Compiling ../../ext/lwip/src/api/err.c
+Compiling ../../ext/lwip/src/api/netbuf.c
+Compiling ../../ext/lwip/src/api/netdb.c
+Compiling ../../ext/lwip/src/api/netifapi.c
+Compiling ../../ext/lwip/src/api/sockets.c
+Compiling ../../ext/lwip/src/api/tcpip.c
+Compiling ../../os/various/evtimer.c
+Compiling web/web.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling ../../os/various/lwip_bindings/arch/sys_arch.c
+Compiling ../../ext/lwip/src/netif/etharp.c
+Compiling ../../ext/lwip/src/core/dhcp.c
+Compiling ../../ext/lwip/src/core/dns.c
+Compiling ../../ext/lwip/src/core/init.c
+Compiling ../../ext/lwip/src/core/mem.c
+Compiling ../../ext/lwip/src/core/memp.c
+Compiling ../../ext/lwip/src/core/netif.c
+Compiling ../../ext/lwip/src/core/pbuf.c
+Compiling ../../ext/lwip/src/core/raw.c
+Compiling ../../ext/lwip/src/core/stats.c
+Compiling ../../ext/lwip/src/core/sys.c
+Compiling ../../ext/lwip/src/core/tcp.c
+Compiling ../../ext/lwip/src/core/tcp_in.c
+Compiling ../../ext/lwip/src/core/tcp_out.c
+Compiling ../../ext/lwip/src/core/udp.c
+Compiling ../../ext/lwip/src/core/ipv4/autoip.c
+Compiling ../../ext/lwip/src/core/ipv4/icmp.c
+Compiling ../../ext/lwip/src/core/ipv4/igmp.c
+Compiling ../../ext/lwip/src/core/ipv4/inet.c
+Compiling ../../ext/lwip/src/core/ipv4/inet_chksum.c
+Compiling ../../ext/lwip/src/core/ipv4/ip.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_addr.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_frag.c
+Compiling ../../ext/lwip/src/core/def.c
+Compiling ../../ext/lwip/src/core/timers.c
+Compiling ../../ext/lwip/src/api/api_lib.c
+Compiling ../../ext/lwip/src/api/api_msg.c
+../../ext/lwip/src/api/api_msg.c: In function 'netconn_alloc':
+../../ext/lwip/src/api/api_msg.c:608:19: warning: 'size' may be used uninitialized in this function [-Wuninitialized]
+Compiling ../../ext/lwip/src/api/err.c
+Compiling ../../ext/lwip/src/api/netbuf.c
+Compiling ../../ext/lwip/src/api/netdb.c
+Compiling ../../ext/lwip/src/api/netifapi.c
+Compiling ../../ext/lwip/src/api/sockets.c
+Compiling ../../ext/lwip/src/api/tcpip.c
+Compiling web/web.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling ../../os/various/lwip_bindings/arch/sys_arch.c
+Compiling ../../ext/lwip/src/netif/etharp.c
+Compiling ../../ext/lwip/src/core/dhcp.c
+Compiling ../../ext/lwip/src/core/dns.c
+Compiling ../../ext/lwip/src/core/init.c
+Compiling ../../ext/lwip/src/core/mem.c
+Compiling ../../ext/lwip/src/core/memp.c
+Compiling ../../ext/lwip/src/core/netif.c
+Compiling ../../ext/lwip/src/core/pbuf.c
+Compiling ../../ext/lwip/src/core/raw.c
+Compiling ../../ext/lwip/src/core/stats.c
+Compiling ../../ext/lwip/src/core/sys.c
+Compiling ../../ext/lwip/src/core/tcp.c
+Compiling ../../ext/lwip/src/core/tcp_in.c
+Compiling ../../ext/lwip/src/core/tcp_out.c
+Compiling ../../ext/lwip/src/core/udp.c
+Compiling ../../ext/lwip/src/core/ipv4/autoip.c
+Compiling ../../ext/lwip/src/core/ipv4/icmp.c
+Compiling ../../ext/lwip/src/core/ipv4/igmp.c
+Compiling ../../ext/lwip/src/core/ipv4/inet.c
+Compiling ../../ext/lwip/src/core/ipv4/inet_chksum.c
+Compiling ../../ext/lwip/src/core/ipv4/ip.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_addr.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_frag.c
+Compiling ../../ext/lwip/src/core/def.c
+Compiling ../../ext/lwip/src/core/timers.c
+Compiling ../../ext/lwip/src/api/api_lib.c
+Compiling ../../ext/lwip/src/api/api_msg.c
+../../ext/lwip/src/api/api_msg.c: In function 'netconn_alloc':
+../../ext/lwip/src/api/api_msg.c:608:19: warning: 'size' may be used uninitialized in this function [-Wuninitialized]
+Compiling ../../ext/lwip/src/api/err.c
+Compiling ../../ext/lwip/src/api/netbuf.c
+Compiling ../../ext/lwip/src/api/netdb.c
+Compiling ../../ext/lwip/src/api/netifapi.c
+Compiling ../../ext/lwip/src/api/sockets.c
+Compiling ../../ext/lwip/src/api/tcpip.c
+Compiling web/web.c
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+In file included from ../../ext/lwip/src/include/lwip/opt.h:45:0,
+                 from ../../os/various/lwip_bindings/lwipthread.c:66:
+./lwipopts.h:38:0: error: unterminated #ifndef
+make: *** [build/obj/lwipthread.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling ../../os/various/lwip_bindings/arch/sys_arch.c
+Compiling ../../ext/lwip/src/netif/etharp.c
+Compiling ../../ext/lwip/src/core/dhcp.c
+Compiling ../../ext/lwip/src/core/dns.c
+Compiling ../../ext/lwip/src/core/init.c
+Compiling ../../ext/lwip/src/core/mem.c
+Compiling ../../ext/lwip/src/core/memp.c
+Compiling ../../ext/lwip/src/core/netif.c
+Compiling ../../ext/lwip/src/core/pbuf.c
+Compiling ../../ext/lwip/src/core/raw.c
+Compiling ../../ext/lwip/src/core/stats.c
+Compiling ../../ext/lwip/src/core/sys.c
+Compiling ../../ext/lwip/src/core/tcp.c
+Compiling ../../ext/lwip/src/core/tcp_in.c
+Compiling ../../ext/lwip/src/core/tcp_out.c
+Compiling ../../ext/lwip/src/core/udp.c
+Compiling ../../ext/lwip/src/core/ipv4/autoip.c
+Compiling ../../ext/lwip/src/core/ipv4/icmp.c
+Compiling ../../ext/lwip/src/core/ipv4/igmp.c
+Compiling ../../ext/lwip/src/core/ipv4/inet.c
+Compiling ../../ext/lwip/src/core/ipv4/inet_chksum.c
+Compiling ../../ext/lwip/src/core/ipv4/ip.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_addr.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_frag.c
+Compiling ../../ext/lwip/src/core/def.c
+Compiling ../../ext/lwip/src/core/timers.c
+Compiling ../../ext/lwip/src/api/api_lib.c
+Compiling ../../ext/lwip/src/api/api_msg.c
+../../ext/lwip/src/api/api_msg.c: In function 'netconn_alloc':
+../../ext/lwip/src/api/api_msg.c:608:19: warning: 'size' may be used uninitialized in this function [-Wuninitialized]
+Compiling ../../ext/lwip/src/api/err.c
+Compiling ../../ext/lwip/src/api/netbuf.c
+Compiling ../../ext/lwip/src/api/netdb.c
+Compiling ../../ext/lwip/src/api/netifapi.c
+Compiling ../../ext/lwip/src/api/sockets.c
+Compiling ../../ext/lwip/src/api/tcpip.c
+Compiling web/web.c
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling web/web.c
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling web/web.c
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:63:12: error: 'SD6' undeclared (first use in this function)
+main.c:63:12: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:63:12: error: 'SD6' undeclared (first use in this function)
+main.c:63:12: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:89:19: error: 'SD6' undeclared (first use in this function)
+main.c:89:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make clean 
+Cleaning
+rm -fR .dep build
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiler Options
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -O2 -ggdb -fomit-frame-pointer -falign-functions=16 -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wstrict-prototypes -Wa,-alms=build/lst/ -DCORTEX_USE_FPU=FALSE -DTHUMB_PRESENT -mno-thumb-interwork -DTHUMB_NO_INTERWORKING -MD -MP -MF .dep/build.d -I. -I../../os/ports/common/ARMCMx/CMSIS/include -I../../os/ports/common/ARMCMx -I../../os/ports/GCC/ARMCMx -I../../os/ports/GCC/ARMCMx/STM32F4xx -I../../os/kernel/include -I../../test -I../../os/hal/include -I../../os/hal/platforms/STM32F4xx -I../../os/hal/platforms/STM32 -I../../os/hal/platforms/STM32/GPIOv2 -I../../os/hal/platforms/STM32/I2Cv1 -I../../os/hal/platforms/STM32/OTGv1 -I../../os/hal/platforms/STM32/RTCv2 -I../../os/hal/platforms/STM32/USARTv1 -I../../boards/ST_STM32F4_DISCOVERY -I../../os/various/lwip_bindings -I../../ext/lwip/src/include -I../../ext/lwip/src/include/ipv4 -I../../os/various main.c -o main.o
+
+mkdir -p build/obj
+mkdir -p build/lst
+Compiling ../../os/ports/GCC/ARMCMx/crt0.c
+Compiling ../../os/ports/GCC/ARMCMx/STM32F4xx/vectors.c
+Compiling ../../os/ports/GCC/ARMCMx/chcore.c
+Compiling ../../os/ports/GCC/ARMCMx/chcore_v7m.c
+Compiling ../../os/ports/common/ARMCMx/nvic.c
+Compiling ../../os/kernel/src/chsys.c
+Compiling ../../os/kernel/src/chdebug.c
+Compiling ../../os/kernel/src/chlists.c
+Compiling ../../os/kernel/src/chvt.c
+Compiling ../../os/kernel/src/chschd.c
+Compiling ../../os/kernel/src/chthreads.c
+Compiling ../../os/kernel/src/chdynamic.c
+Compiling ../../os/kernel/src/chregistry.c
+Compiling ../../os/kernel/src/chsem.c
+Compiling ../../os/kernel/src/chmtx.c
+Compiling ../../os/kernel/src/chcond.c
+Compiling ../../os/kernel/src/chevents.c
+Compiling ../../os/kernel/src/chmsg.c
+Compiling ../../os/kernel/src/chmboxes.c
+Compiling ../../os/kernel/src/chqueues.c
+Compiling ../../os/kernel/src/chmemcore.c
+Compiling ../../os/kernel/src/chheap.c
+Compiling ../../os/kernel/src/chmempools.c
+Compiling ../../test/test.c
+Compiling ../../test/testthd.c
+Compiling ../../test/testsem.c
+Compiling ../../test/testmtx.c
+Compiling ../../test/testmsg.c
+Compiling ../../test/testmbox.c
+Compiling ../../test/testevt.c
+Compiling ../../test/testheap.c
+Compiling ../../test/testpools.c
+Compiling ../../test/testdyn.c
+Compiling ../../test/testqueues.c
+Compiling ../../test/testbmk.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling ../../os/various/lwip_bindings/arch/sys_arch.c
+Compiling ../../ext/lwip/src/netif/etharp.c
+Compiling ../../ext/lwip/src/core/dhcp.c
+Compiling ../../ext/lwip/src/core/dns.c
+Compiling ../../ext/lwip/src/core/init.c
+Compiling ../../ext/lwip/src/core/mem.c
+Compiling ../../ext/lwip/src/core/memp.c
+Compiling ../../ext/lwip/src/core/netif.c
+Compiling ../../ext/lwip/src/core/pbuf.c
+Compiling ../../ext/lwip/src/core/raw.c
+Compiling ../../ext/lwip/src/core/stats.c
+Compiling ../../ext/lwip/src/core/sys.c
+Compiling ../../ext/lwip/src/core/tcp.c
+Compiling ../../ext/lwip/src/core/tcp_in.c
+Compiling ../../ext/lwip/src/core/tcp_out.c
+Compiling ../../ext/lwip/src/core/udp.c
+Compiling ../../ext/lwip/src/core/ipv4/autoip.c
+Compiling ../../ext/lwip/src/core/ipv4/icmp.c
+Compiling ../../ext/lwip/src/core/ipv4/igmp.c
+Compiling ../../ext/lwip/src/core/ipv4/inet.c
+Compiling ../../ext/lwip/src/core/ipv4/inet_chksum.c
+Compiling ../../ext/lwip/src/core/ipv4/ip.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_addr.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_frag.c
+Compiling ../../ext/lwip/src/core/def.c
+Compiling ../../ext/lwip/src/core/timers.c
+Compiling ../../ext/lwip/src/api/api_lib.c
+Compiling ../../ext/lwip/src/api/api_msg.c
+../../ext/lwip/src/api/api_msg.c: In function 'netconn_alloc':
+../../ext/lwip/src/api/api_msg.c:608:19: warning: 'size' may be used uninitialized in this function [-Wuninitialized]
+Compiling ../../ext/lwip/src/api/err.c
+Compiling ../../ext/lwip/src/api/netbuf.c
+Compiling ../../ext/lwip/src/api/netdb.c
+Compiling ../../ext/lwip/src/api/netifapi.c
+Compiling ../../ext/lwip/src/api/sockets.c
+Compiling ../../ext/lwip/src/api/tcpip.c
+Compiling ../../os/various/evtimer.c
+Compiling web/web.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:89:19: error: 'SD6' undeclared (first use in this function)
+main.c:89:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:89:19: error: 'SD6' undeclared (first use in this function)
+main.c:89:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:89:19: error: 'SD6' undeclared (first use in this function)
+main.c:89:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:89:19: error: 'SD6' undeclared (first use in this function)
+main.c:89:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:89:19: error: 'SD6' undeclared (first use in this function)
+main.c:89:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:89:19: error: 'SD6' undeclared (first use in this function)
+main.c:89:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:89:19: error: 'SD6' undeclared (first use in this function)
+main.c:89:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:89:19: error: 'SD6' undeclared (first use in this function)
+main.c:89:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make clean 
+Cleaning
+rm -fR .dep build
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiler Options
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -O2 -ggdb -fomit-frame-pointer -falign-functions=16 -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Wstrict-prototypes -Wa,-alms=build/lst/ -DCORTEX_USE_FPU=FALSE -DTHUMB_PRESENT -mno-thumb-interwork -DTHUMB_NO_INTERWORKING -MD -MP -MF .dep/build.d -I. -I../../os/ports/common/ARMCMx/CMSIS/include -I../../os/ports/common/ARMCMx -I../../os/ports/GCC/ARMCMx -I../../os/ports/GCC/ARMCMx/STM32F4xx -I../../os/kernel/include -I../../test -I../../os/hal/include -I../../os/hal/platforms/STM32F4xx -I../../os/hal/platforms/STM32 -I../../os/hal/platforms/STM32/GPIOv2 -I../../os/hal/platforms/STM32/I2Cv1 -I../../os/hal/platforms/STM32/OTGv1 -I../../os/hal/platforms/STM32/RTCv2 -I../../os/hal/platforms/STM32/USARTv1 -I../../boards/ST_STM32F4_DISCOVERY -I../../os/various/lwip_bindings -I../../ext/lwip/src/include -I../../ext/lwip/src/include/ipv4 -I../../os/various main.c -o main.o
+
+mkdir -p build/obj
+mkdir -p build/lst
+Compiling ../../os/ports/GCC/ARMCMx/crt0.c
+Compiling ../../os/ports/GCC/ARMCMx/STM32F4xx/vectors.c
+Compiling ../../os/ports/GCC/ARMCMx/chcore.c
+Compiling ../../os/ports/GCC/ARMCMx/chcore_v7m.c
+Compiling ../../os/ports/common/ARMCMx/nvic.c
+Compiling ../../os/kernel/src/chsys.c
+Compiling ../../os/kernel/src/chdebug.c
+Compiling ../../os/kernel/src/chlists.c
+Compiling ../../os/kernel/src/chvt.c
+Compiling ../../os/kernel/src/chschd.c
+Compiling ../../os/kernel/src/chthreads.c
+Compiling ../../os/kernel/src/chdynamic.c
+Compiling ../../os/kernel/src/chregistry.c
+Compiling ../../os/kernel/src/chsem.c
+Compiling ../../os/kernel/src/chmtx.c
+Compiling ../../os/kernel/src/chcond.c
+Compiling ../../os/kernel/src/chevents.c
+Compiling ../../os/kernel/src/chmsg.c
+Compiling ../../os/kernel/src/chmboxes.c
+Compiling ../../os/kernel/src/chqueues.c
+Compiling ../../os/kernel/src/chmemcore.c
+Compiling ../../os/kernel/src/chheap.c
+Compiling ../../os/kernel/src/chmempools.c
+Compiling ../../test/test.c
+Compiling ../../test/testthd.c
+Compiling ../../test/testsem.c
+Compiling ../../test/testmtx.c
+Compiling ../../test/testmsg.c
+Compiling ../../test/testmbox.c
+Compiling ../../test/testevt.c
+Compiling ../../test/testheap.c
+Compiling ../../test/testpools.c
+Compiling ../../test/testdyn.c
+Compiling ../../test/testqueues.c
+Compiling ../../test/testbmk.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling ../../os/various/lwip_bindings/arch/sys_arch.c
+Compiling ../../ext/lwip/src/netif/etharp.c
+Compiling ../../ext/lwip/src/core/dhcp.c
+Compiling ../../ext/lwip/src/core/dns.c
+Compiling ../../ext/lwip/src/core/init.c
+Compiling ../../ext/lwip/src/core/mem.c
+Compiling ../../ext/lwip/src/core/memp.c
+Compiling ../../ext/lwip/src/core/netif.c
+Compiling ../../ext/lwip/src/core/pbuf.c
+Compiling ../../ext/lwip/src/core/raw.c
+Compiling ../../ext/lwip/src/core/stats.c
+Compiling ../../ext/lwip/src/core/sys.c
+Compiling ../../ext/lwip/src/core/tcp.c
+Compiling ../../ext/lwip/src/core/tcp_in.c
+Compiling ../../ext/lwip/src/core/tcp_out.c
+Compiling ../../ext/lwip/src/core/udp.c
+Compiling ../../ext/lwip/src/core/ipv4/autoip.c
+Compiling ../../ext/lwip/src/core/ipv4/icmp.c
+Compiling ../../ext/lwip/src/core/ipv4/igmp.c
+Compiling ../../ext/lwip/src/core/ipv4/inet.c
+Compiling ../../ext/lwip/src/core/ipv4/inet_chksum.c
+Compiling ../../ext/lwip/src/core/ipv4/ip.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_addr.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_frag.c
+Compiling ../../ext/lwip/src/core/def.c
+Compiling ../../ext/lwip/src/core/timers.c
+Compiling ../../ext/lwip/src/api/api_lib.c
+Compiling ../../ext/lwip/src/api/api_msg.c
+../../ext/lwip/src/api/api_msg.c: In function 'netconn_alloc':
+../../ext/lwip/src/api/api_msg.c:608:19: warning: 'size' may be used uninitialized in this function [-Wuninitialized]
+Compiling ../../ext/lwip/src/api/err.c
+Compiling ../../ext/lwip/src/api/netbuf.c
+Compiling ../../ext/lwip/src/api/netdb.c
+Compiling ../../ext/lwip/src/api/netifapi.c
+Compiling ../../ext/lwip/src/api/sockets.c
+Compiling ../../ext/lwip/src/api/tcpip.c
+Compiling ../../os/various/evtimer.c
+Compiling web/web.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:89:19: error: 'SD6' undeclared (first use in this function)
+main.c:89:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+build/obj/uart_lld.o: In function `VectorD4':
+D:\projects\st\eth\ChibiOS-2.5.0\demos\ARMCM4-STM32F407-LWIP/../../os/hal/platforms/STM32/USARTv1/uart_lld.c:317: multiple definition of `VectorD4'
+build/obj/serial_lld.o:D:\projects\st\eth\ChibiOS-2.5.0\demos\ARMCM4-STM32F407-LWIP/../../os/hal/platforms/STM32/USARTv1/serial_lld.c:262: first defined here
+collect2: ld returned 1 exit status
+make: *** [build/ch.elf] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:74:32: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+main.c:74:21: warning: statement with no effect [-Wunused-value]
+main.c:74:38: error: expected ';' before ')' token
+main.c:74:38: error: expected statement before ')' token
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+main.c: In function 'main':
+main.c:74:32: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+main.c:74:21: warning: statement with no effect [-Wunused-value]
+main.c:74:38: error: expected ';' before ')' token
+main.c:74:38: error: expected statement before ')' token
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling ../../os/various/lwip_bindings/arch/sys_arch.c
+Compiling ../../ext/lwip/src/netif/etharp.c
+Compiling ../../ext/lwip/src/core/dhcp.c
+Compiling ../../ext/lwip/src/core/dns.c
+Compiling ../../ext/lwip/src/core/init.c
+Compiling ../../ext/lwip/src/core/mem.c
+Compiling ../../ext/lwip/src/core/memp.c
+Compiling ../../ext/lwip/src/core/netif.c
+Compiling ../../ext/lwip/src/core/pbuf.c
+Compiling ../../ext/lwip/src/core/raw.c
+Compiling ../../ext/lwip/src/core/stats.c
+Compiling ../../ext/lwip/src/core/sys.c
+Compiling ../../ext/lwip/src/core/tcp.c
+Compiling ../../ext/lwip/src/core/tcp_in.c
+Compiling ../../ext/lwip/src/core/tcp_out.c
+Compiling ../../ext/lwip/src/core/udp.c
+Compiling ../../ext/lwip/src/core/ipv4/autoip.c
+Compiling ../../ext/lwip/src/core/ipv4/icmp.c
+Compiling ../../ext/lwip/src/core/ipv4/igmp.c
+Compiling ../../ext/lwip/src/core/ipv4/inet.c
+Compiling ../../ext/lwip/src/core/ipv4/inet_chksum.c
+Compiling ../../ext/lwip/src/core/ipv4/ip.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_addr.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_frag.c
+Compiling ../../ext/lwip/src/core/def.c
+Compiling ../../ext/lwip/src/core/timers.c
+Compiling ../../ext/lwip/src/api/api_lib.c
+Compiling ../../ext/lwip/src/api/api_msg.c
+../../ext/lwip/src/api/api_msg.c: In function 'netconn_alloc':
+../../ext/lwip/src/api/api_msg.c:608:19: warning: 'size' may be used uninitialized in this function [-Wuninitialized]
+Compiling ../../ext/lwip/src/api/err.c
+Compiling ../../ext/lwip/src/api/netbuf.c
+Compiling ../../ext/lwip/src/api/netdb.c
+Compiling ../../ext/lwip/src/api/netifapi.c
+Compiling ../../ext/lwip/src/api/sockets.c
+Compiling ../../ext/lwip/src/api/tcpip.c
+Compiling web/web.c
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling ../../os/various/lwip_bindings/arch/sys_arch.c
+Compiling ../../ext/lwip/src/netif/etharp.c
+Compiling ../../ext/lwip/src/core/dhcp.c
+Compiling ../../ext/lwip/src/core/dns.c
+Compiling ../../ext/lwip/src/core/init.c
+Compiling ../../ext/lwip/src/core/mem.c
+Compiling ../../ext/lwip/src/core/memp.c
+Compiling ../../ext/lwip/src/core/netif.c
+Compiling ../../ext/lwip/src/core/pbuf.c
+Compiling ../../ext/lwip/src/core/raw.c
+Compiling ../../ext/lwip/src/core/stats.c
+Compiling ../../ext/lwip/src/core/sys.c
+Compiling ../../ext/lwip/src/core/tcp.c
+Compiling ../../ext/lwip/src/core/tcp_in.c
+Compiling ../../ext/lwip/src/core/tcp_out.c
+Compiling ../../ext/lwip/src/core/udp.c
+Compiling ../../ext/lwip/src/core/ipv4/autoip.c
+Compiling ../../ext/lwip/src/core/ipv4/icmp.c
+Compiling ../../ext/lwip/src/core/ipv4/igmp.c
+Compiling ../../ext/lwip/src/core/ipv4/inet.c
+Compiling ../../ext/lwip/src/core/ipv4/inet_chksum.c
+Compiling ../../ext/lwip/src/core/ipv4/ip.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_addr.c
+Compiling ../../ext/lwip/src/core/ipv4/ip_frag.c
+Compiling ../../ext/lwip/src/core/def.c
+Compiling ../../ext/lwip/src/core/timers.c
+Compiling ../../ext/lwip/src/api/api_lib.c
+Compiling ../../ext/lwip/src/api/api_msg.c
+../../ext/lwip/src/api/api_msg.c: In function 'netconn_alloc':
+../../ext/lwip/src/api/api_msg.c:608:19: warning: 'size' may be used uninitialized in this function [-Wuninitialized]
+Compiling ../../ext/lwip/src/api/err.c
+Compiling ../../ext/lwip/src/api/netbuf.c
+Compiling ../../ext/lwip/src/api/netdb.c
+Compiling ../../ext/lwip/src/api/netifapi.c
+Compiling ../../ext/lwip/src/api/sockets.c
+Compiling ../../ext/lwip/src/api/tcpip.c
+Compiling web/web.c
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:38:5: error: 'GPIOD_LED4' undeclared (first use in this function)
+main.c:38:5: note: each undeclared identifier is reported only once for each function it appears in
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:40:5: error: 'GPIOD_LED4' undeclared (first use in this function)
+main.c:40:5: note: each undeclared identifier is reported only once for each function it appears in
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [build/obj/main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+../../boards/ST_STM32F4_DISCOVERY/board.c:38:4: error: 'GPIOD_LED3' undeclared here (not in a function)
+../../boards/ST_STM32F4_DISCOVERY/board.c:39:4: warning: missing initializer [-Wmissing-field-initializers]
+../../boards/ST_STM32F4_DISCOVERY/board.c:39:4: warning: (near initialization for 'pal_default_config.PDData.afrh') [-Wmissing-field-initializers]
+../../boards/ST_STM32F4_DISCOVERY/board.c:50:1: warning: missing initializer [-Wmissing-field-initializers]
+../../boards/ST_STM32F4_DISCOVERY/board.c:50:1: warning: (near initialization for 'pal_default_config.PDData') [-Wmissing-field-initializers]
+make: *** [build/obj/board.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+../../boards/ST_STM32F4_DISCOVERY/board.c:38:4: error: 'GPIOD_LED3' undeclared here (not in a function)
+../../boards/ST_STM32F4_DISCOVERY/board.c:39:4: warning: missing initializer [-Wmissing-field-initializers]
+../../boards/ST_STM32F4_DISCOVERY/board.c:39:4: warning: (near initialization for 'pal_default_config.PDData.afrh') [-Wmissing-field-initializers]
+../../boards/ST_STM32F4_DISCOVERY/board.c:50:1: warning: missing initializer [-Wmissing-field-initializers]
+../../boards/ST_STM32F4_DISCOVERY/board.c:50:1: warning: (near initialization for 'pal_default_config.PDData') [-Wmissing-field-initializers]
+make: *** [build/obj/board.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling ../../test/test.c
+Compiling ../../os/hal/src/hal.c
+Compiling ../../os/hal/src/adc.c
+Compiling ../../os/hal/src/can.c
+Compiling ../../os/hal/src/ext.c
+Compiling ../../os/hal/src/gpt.c
+Compiling ../../os/hal/src/i2c.c
+Compiling ../../os/hal/src/icu.c
+Compiling ../../os/hal/src/mac.c
+Compiling ../../os/hal/src/mmc_spi.c
+Compiling ../../os/hal/src/mmcsd.c
+Compiling ../../os/hal/src/pal.c
+Compiling ../../os/hal/src/pwm.c
+Compiling ../../os/hal/src/rtc.c
+Compiling ../../os/hal/src/sdc.c
+Compiling ../../os/hal/src/serial.c
+Compiling ../../os/hal/src/serial_usb.c
+Compiling ../../os/hal/src/spi.c
+Compiling ../../os/hal/src/tm.c
+Compiling ../../os/hal/src/uart.c
+Compiling ../../os/hal/src/usb.c
+Compiling ../../os/hal/platforms/STM32F4xx/stm32_dma.c
+Compiling ../../os/hal/platforms/STM32F4xx/hal_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/adc_lld.c
+Compiling ../../os/hal/platforms/STM32F4xx/ext_lld_isr.c
+Compiling ../../os/hal/platforms/STM32/can_lld.c
+Compiling ../../os/hal/platforms/STM32/ext_lld.c
+Compiling ../../os/hal/platforms/STM32/gpt_lld.c
+Compiling ../../os/hal/platforms/STM32/icu_lld.c
+Compiling ../../os/hal/platforms/STM32/mac_lld.c
+Compiling ../../os/hal/platforms/STM32/pwm_lld.c
+Compiling ../../os/hal/platforms/STM32/sdc_lld.c
+Compiling ../../os/hal/platforms/STM32/spi_lld.c
+Compiling ../../os/hal/platforms/STM32/GPIOv2/pal_lld.c
+Compiling ../../os/hal/platforms/STM32/I2Cv1/i2c_lld.c
+Compiling ../../os/hal/platforms/STM32/OTGv1/usb_lld.c
+Compiling ../../os/hal/platforms/STM32/RTCv2/rtc_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/serial_lld.c
+Compiling ../../os/hal/platforms/STM32/USARTv1/uart_lld.c
+Compiling ../../boards/ST_STM32F4_DISCOVERY/board.c
+Compiling ../../os/various/lwip_bindings/lwipthread.c
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****
+
+**** Build of configuration Default for project ARMCM4-STM32F407-LWIP ****
+
+make all 
+Compiling main.c
+main.c: In function 'Thread1':
+main.c:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Linking build/ch.elf
+Creating build/ch.hex
+Creating build/ch.bin
+Creating build/ch.dmp
+Done
+
+**** Build Finished ****

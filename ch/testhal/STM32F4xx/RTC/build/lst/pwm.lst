@@ -1,0 +1,276 @@
+ARM GAS  /tmp/ccngi9WE.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m4
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 2
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.file	"pwm.c"
+  15              		.text
+  16              	.Ltext0:
+  17              		.cfi_sections	.debug_frame
+  18              	.Letext0:
+  19              		.file 1 "/home/prana/CodeSourcery/ARM_EABI/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none
+  20              		.file 2 "../../../os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
+  21              		.section	.debug_info,"",%progbits
+  22              	.Ldebug_info0:
+  23 0000 8D000000 		.4byte	0x8d
+  24 0004 0200     		.2byte	0x2
+  25 0006 00000000 		.4byte	.Ldebug_abbrev0
+  26 000a 04       		.byte	0x4
+  27 000b 01       		.uleb128 0x1
+  28 000c C0000000 		.4byte	.LASF10
+  29 0010 01       		.byte	0x1
+  30 0011 A6000000 		.4byte	.LASF11
+  31 0015 65000000 		.4byte	.LASF12
+  32 0019 00000000 		.4byte	.Ltext0
+  33 001d 00000000 		.4byte	.Letext0
+  34 0021 00000000 		.4byte	.Ldebug_line0
+  35 0025 02       		.uleb128 0x2
+  36 0026 04       		.byte	0x4
+  37 0027 05       		.byte	0x5
+  38 0028 696E7400 		.ascii	"int\000"
+  39 002c 03       		.uleb128 0x3
+  40 002d 04       		.byte	0x4
+  41 002e 07       		.byte	0x7
+  42 002f 21000000 		.4byte	.LASF0
+  43 0033 03       		.uleb128 0x3
+  44 0034 01       		.byte	0x1
+  45 0035 06       		.byte	0x6
+  46 0036 D9000000 		.4byte	.LASF1
+  47 003a 03       		.uleb128 0x3
+  48 003b 01       		.byte	0x1
+  49 003c 08       		.byte	0x8
+  50 003d 57000000 		.4byte	.LASF2
+  51 0041 03       		.uleb128 0x3
+  52 0042 02       		.byte	0x2
+  53 0043 05       		.byte	0x5
+  54 0044 E5000000 		.4byte	.LASF3
+  55 0048 03       		.uleb128 0x3
+  56 0049 02       		.byte	0x2
+  57 004a 07       		.byte	0x7
+ARM GAS  /tmp/ccngi9WE.s 			page 2
+
+
+  58 004b 0E000000 		.4byte	.LASF4
+  59 004f 04       		.uleb128 0x4
+  60 0050 EF000000 		.4byte	.LASF13
+  61 0054 01       		.byte	0x1
+  62 0055 4F       		.byte	0x4f
+  63 0056 5A000000 		.4byte	0x5a
+  64 005a 03       		.uleb128 0x3
+  65 005b 04       		.byte	0x4
+  66 005c 05       		.byte	0x5
+  67 005d 9D000000 		.4byte	.LASF5
+  68 0061 03       		.uleb128 0x3
+  69 0062 04       		.byte	0x4
+  70 0063 07       		.byte	0x7
+  71 0064 2E000000 		.4byte	.LASF6
+  72 0068 03       		.uleb128 0x3
+  73 0069 08       		.byte	0x8
+  74 006a 05       		.byte	0x5
+  75 006b 00000000 		.4byte	.LASF7
+  76 006f 03       		.uleb128 0x3
+  77 0070 08       		.byte	0x8
+  78 0071 07       		.byte	0x7
+  79 0072 40000000 		.4byte	.LASF8
+  80 0076 03       		.uleb128 0x3
+  81 0077 01       		.byte	0x1
+  82 0078 08       		.byte	0x8
+  83 0079 98000000 		.4byte	.LASF9
+  84 007d 05       		.uleb128 0x5
+  85 007e 4F000000 		.4byte	0x4f
+  86 0082 06       		.uleb128 0x6
+  87 0083 CC000000 		.4byte	.LASF14
+  88 0087 02       		.byte	0x2
+  89 0088 9806     		.2byte	0x698
+  90 008a 7D000000 		.4byte	0x7d
+  91 008e 01       		.byte	0x1
+  92 008f 01       		.byte	0x1
+  93 0090 00       		.byte	0
+  94              		.section	.debug_abbrev,"",%progbits
+  95              	.Ldebug_abbrev0:
+  96 0000 01       		.uleb128 0x1
+  97 0001 11       		.uleb128 0x11
+  98 0002 01       		.byte	0x1
+  99 0003 25       		.uleb128 0x25
+ 100 0004 0E       		.uleb128 0xe
+ 101 0005 13       		.uleb128 0x13
+ 102 0006 0B       		.uleb128 0xb
+ 103 0007 03       		.uleb128 0x3
+ 104 0008 0E       		.uleb128 0xe
+ 105 0009 1B       		.uleb128 0x1b
+ 106 000a 0E       		.uleb128 0xe
+ 107 000b 11       		.uleb128 0x11
+ 108 000c 01       		.uleb128 0x1
+ 109 000d 12       		.uleb128 0x12
+ 110 000e 01       		.uleb128 0x1
+ 111 000f 10       		.uleb128 0x10
+ 112 0010 06       		.uleb128 0x6
+ 113 0011 00       		.byte	0
+ 114 0012 00       		.byte	0
+ARM GAS  /tmp/ccngi9WE.s 			page 3
+
+
+ 115 0013 02       		.uleb128 0x2
+ 116 0014 24       		.uleb128 0x24
+ 117 0015 00       		.byte	0
+ 118 0016 0B       		.uleb128 0xb
+ 119 0017 0B       		.uleb128 0xb
+ 120 0018 3E       		.uleb128 0x3e
+ 121 0019 0B       		.uleb128 0xb
+ 122 001a 03       		.uleb128 0x3
+ 123 001b 08       		.uleb128 0x8
+ 124 001c 00       		.byte	0
+ 125 001d 00       		.byte	0
+ 126 001e 03       		.uleb128 0x3
+ 127 001f 24       		.uleb128 0x24
+ 128 0020 00       		.byte	0
+ 129 0021 0B       		.uleb128 0xb
+ 130 0022 0B       		.uleb128 0xb
+ 131 0023 3E       		.uleb128 0x3e
+ 132 0024 0B       		.uleb128 0xb
+ 133 0025 03       		.uleb128 0x3
+ 134 0026 0E       		.uleb128 0xe
+ 135 0027 00       		.byte	0
+ 136 0028 00       		.byte	0
+ 137 0029 04       		.uleb128 0x4
+ 138 002a 16       		.uleb128 0x16
+ 139 002b 00       		.byte	0
+ 140 002c 03       		.uleb128 0x3
+ 141 002d 0E       		.uleb128 0xe
+ 142 002e 3A       		.uleb128 0x3a
+ 143 002f 0B       		.uleb128 0xb
+ 144 0030 3B       		.uleb128 0x3b
+ 145 0031 0B       		.uleb128 0xb
+ 146 0032 49       		.uleb128 0x49
+ 147 0033 13       		.uleb128 0x13
+ 148 0034 00       		.byte	0
+ 149 0035 00       		.byte	0
+ 150 0036 05       		.uleb128 0x5
+ 151 0037 35       		.uleb128 0x35
+ 152 0038 00       		.byte	0
+ 153 0039 49       		.uleb128 0x49
+ 154 003a 13       		.uleb128 0x13
+ 155 003b 00       		.byte	0
+ 156 003c 00       		.byte	0
+ 157 003d 06       		.uleb128 0x6
+ 158 003e 34       		.uleb128 0x34
+ 159 003f 00       		.byte	0
+ 160 0040 03       		.uleb128 0x3
+ 161 0041 0E       		.uleb128 0xe
+ 162 0042 3A       		.uleb128 0x3a
+ 163 0043 0B       		.uleb128 0xb
+ 164 0044 3B       		.uleb128 0x3b
+ 165 0045 05       		.uleb128 0x5
+ 166 0046 49       		.uleb128 0x49
+ 167 0047 13       		.uleb128 0x13
+ 168 0048 3F       		.uleb128 0x3f
+ 169 0049 0C       		.uleb128 0xc
+ 170 004a 3C       		.uleb128 0x3c
+ 171 004b 0C       		.uleb128 0xc
+ARM GAS  /tmp/ccngi9WE.s 			page 4
+
+
+ 172 004c 00       		.byte	0
+ 173 004d 00       		.byte	0
+ 174 004e 00       		.byte	0
+ 175              		.section	.debug_line,"",%progbits
+ 176              	.Ldebug_line0:
+ 177 0000 C8000000 		.section	.debug_str,"MS",%progbits,1
+ 177      0200C200 
+ 177      00000201 
+ 177      FB0E0D00 
+ 177      01010101 
+ 178              	.LASF7:
+ 179 0000 6C6F6E67 		.ascii	"long long int\000"
+ 179      206C6F6E 
+ 179      6720696E 
+ 179      7400
+ 180              	.LASF4:
+ 181 000e 73686F72 		.ascii	"short unsigned int\000"
+ 181      7420756E 
+ 181      7369676E 
+ 181      65642069 
+ 181      6E7400
+ 182              	.LASF0:
+ 183 0021 756E7369 		.ascii	"unsigned int\000"
+ 183      676E6564 
+ 183      20696E74 
+ 183      00
+ 184              	.LASF6:
+ 185 002e 6C6F6E67 		.ascii	"long unsigned int\000"
+ 185      20756E73 
+ 185      69676E65 
+ 185      6420696E 
+ 185      7400
+ 186              	.LASF8:
+ 187 0040 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 187      206C6F6E 
+ 187      6720756E 
+ 187      7369676E 
+ 187      65642069 
+ 188              	.LASF2:
+ 189 0057 756E7369 		.ascii	"unsigned char\000"
+ 189      676E6564 
+ 189      20636861 
+ 189      7200
+ 190              	.LASF12:
+ 191 0065 2F686F6D 		.ascii	"/home/prana/workspace/eth/ch/testhal/STM32F4xx/RTC\000"
+ 191      652F7072 
+ 191      616E612F 
+ 191      776F726B 
+ 191      73706163 
+ 192              	.LASF9:
+ 193 0098 63686172 		.ascii	"char\000"
+ 193      00
+ 194              	.LASF5:
+ 195 009d 6C6F6E67 		.ascii	"long int\000"
+ 195      20696E74 
+ 195      00
+ 196              	.LASF11:
+ARM GAS  /tmp/ccngi9WE.s 			page 5
+
+
+ 197 00a6 2E2E2F2E 		.ascii	"../../../os/hal/src/pwm.c\000"
+ 197      2E2F2E2E 
+ 197      2F6F732F 
+ 197      68616C2F 
+ 197      7372632F 
+ 198              	.LASF10:
+ 199 00c0 474E5520 		.ascii	"GNU C 4.6.3\000"
+ 199      4320342E 
+ 199      362E3300 
+ 200              	.LASF14:
+ 201 00cc 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 201      52784275 
+ 201      66666572 
+ 201      00
+ 202              	.LASF1:
+ 203 00d9 7369676E 		.ascii	"signed char\000"
+ 203      65642063 
+ 203      68617200 
+ 204              	.LASF3:
+ 205 00e5 73686F72 		.ascii	"short int\000"
+ 205      7420696E 
+ 205      7400
+ 206              	.LASF13:
+ 207 00ef 696E7433 		.ascii	"int32_t\000"
+ 207      325F7400 
+ 208              		.ident	"GCC: (Sourcery CodeBench Lite 2012.03-56) 4.6.3"
+ARM GAS  /tmp/ccngi9WE.s 			page 6
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 pwm.c
+
+NO UNDEFINED SYMBOLS
